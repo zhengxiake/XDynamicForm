@@ -9,7 +9,7 @@ import DynamicForm, {
   useForm,
   Store,
   ValidateErrorEntity,
-} from '@xia/dform';
+} from '@xia/xform';
 import PositionIcon from '../../../assets/position_ico.png';
 
 const Page: FC = () => {

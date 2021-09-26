@@ -9,7 +9,7 @@ import DynamicForm, {
   useForm,
   Store,
   ValidateErrorEntity,
-} from '@xia/dform';
+} from '@xia/xform';
 
 import CountryList from '@bang88/china-city-data';
 

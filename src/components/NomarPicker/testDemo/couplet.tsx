@@ -6,7 +6,7 @@ import DynamicForm, {
   useForm,
   Store,
   ValidateErrorEntity,
-} from '@xia/dform';
+} from '@xia/xform';
 
 const pickerData = [
   {

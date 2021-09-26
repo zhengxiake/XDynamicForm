@@ -12,8 +12,8 @@
     "paths": {
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"],
-      "@xia/dform": ["src/index.ts"],
-      "@xia/dform/src/*": ["src/*"]
+      "@xia/xform": ["src/index.ts"],
+      "@xia/xform/src/*": ["src/*"]
     },
     "allowSyntheticDefaultImports": true
   },
