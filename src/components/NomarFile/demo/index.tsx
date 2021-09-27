@@ -11,7 +11,7 @@ import DynamicForm, {
   Store,
   ValidateErrorEntity,
   getRandom,
-} from '@xia/xform';
+} from 'xia-form';
 
 const contractList = [
   { title: '合约模板2020.pdf', fileId: '1' },

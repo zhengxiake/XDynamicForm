@@ -1,7 +1,7 @@
 {
   "private": false,
-  "name": "@xia/xform",
-  "version": "0.0.2",
+  "name": "xia-form",
+  "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",

@@ -10,7 +10,7 @@ import {
   Store,
   ValidateErrorEntity,
   MultiplePicker,
-} from '@xia/xform';
+} from 'xia-form';
 
 const sexData = [
   { label: '男', value: 'man' },

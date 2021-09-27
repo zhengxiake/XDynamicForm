@@ -39,6 +39,6 @@ nav:
 
 **日期字符串在不同浏览器有不同的实现，例如 new Date('2017-1-1') 在 Safari 上是 Invalid Date，而在 Chrome 上是能正常解析的。**
 
-**在设值时，如果是日期字符串请先用 `dateChange(val)` 进行转化下，`dateChange` 可以在 `@xia/xform` 中导出。**
+**在设值时，如果是日期字符串请先用 `dateChange(val)` 进行转化下，`dateChange` 可以在 `xia-form` 中导出。**
 
 例子请参考 `NomarDatePicker` 组件。

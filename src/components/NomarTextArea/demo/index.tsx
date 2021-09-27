@@ -9,7 +9,7 @@ import DynamicForm, {
   useForm,
   Store,
   ValidateErrorEntity,
-} from '@xia/xform';
+} from 'xia-form';
 import PhotoIcon from '../../../assets/photo.png';
 
 const Page: FC = () => {

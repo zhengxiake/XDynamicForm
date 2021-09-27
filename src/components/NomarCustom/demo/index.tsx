@@ -9,7 +9,7 @@ import DynamicForm, {
   useForm,
   Store,
   ValidateErrorEntity,
-} from '@xia/xform';
+} from 'xia-form';
 
 interface IDemoPage {
   name: string;

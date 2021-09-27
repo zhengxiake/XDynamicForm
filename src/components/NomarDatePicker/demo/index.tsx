@@ -10,7 +10,7 @@ import DynamicForm, {
   Store,
   ValidateErrorEntity,
   dateChange,
-} from '@xia/xform';
+} from 'xia-form';
 
 const Page: FC = () => {
   const [form] = useForm();
