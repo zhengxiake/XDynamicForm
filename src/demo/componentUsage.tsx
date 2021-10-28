@@ -5,6 +5,7 @@ import {
   NomarPicker,
   NomarRadio,
   NomarDatePicker,
+  NomarSwitch,
   Form,
   useForm,
   Store,
@@ -89,6 +90,13 @@ const UserName: FC = () => {
           placeholder="请选择"
           title="特长"
           data={motionData}
+        />
+        <NomarSwitch
+          fieldProps="off"
+          placeholder="选择"
+          title="Off"
+          required
+          color="#1070FF"
         />
       </Form>
       <WhiteSpace />
