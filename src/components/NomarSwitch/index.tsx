@@ -35,19 +35,21 @@ const NomarSwitch: FC<INomarSwitchProps> = (props) => {
     <div className={`${allPrefixCls}-item`}>
       {!hidden && (
         <div className={`${allPrefixCls}-switch`}>
-          <div className={`${allPrefixCls}-title`}>
-            {required && hasStar && (
-              <div className={`${allPrefixCls}-redStar`}>*</div>
-            )}
-            <div>{title}</div>
+          <div className={`${allPrefixCls}-switch-item`}>
+            <div className={`${allPrefixCls}-title`}>
+              {required && hasStar && (
+                <div className={`${allPrefixCls}-redStar`}>*</div>
+              )}
+              <div>{title}</div>
+            </div>
+            <Field
+              name={fieldProps}
+              valuePropName="checked"
+              rules={rules || [{ required, message: `请选择${title}` }]}
+            >
+              <Switch {...otherProps} />
+            </Field>
           </div>
-          <Field
-            name={fieldProps}
-            valuePropName="checked"
-            rules={rules || [{ required, message: `请选择${title}` }]}
-          >
-            <Switch {...otherProps} />
-          </Field>
         </div>
       )}
     </div>
